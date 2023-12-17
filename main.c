@@ -351,7 +351,6 @@ void gameLoop()
 
         if(strcmp(input,"south") == 0 || strcmp(input, "s") == 0)
         {   
-            printf("Debug-South: %d",rooms[currentRoom].south);
             
             if(rooms[currentRoom].south != 0)
             {
